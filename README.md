@@ -17,6 +17,7 @@ Verifique com `python3 --version` ou `python --version`. Em seguida, siga os pas
 6. Acesse a API em: `http://localhost:5000/` (use os endpoints específicos listados abaixo para interagir)
 
 ## Observações Importantes
+- **Execução**: Todos os comandos devem ser executados no diretorio raiz do projeto.
 - **Execução como Módulo**: O comando `python -m` é necessário devido à estrutura de pacotes. Executar `python src/main/python/com/example/calculadora/controller/app.py` diretamente pode causar erros de importação.
 - **PYTHONPATH para Testes**: Para executar os testes, use `PYTHONPATH=. pytest src/test/` para garantir que o diretório `src` seja reconhecido.
 - **Acesso no Navegador**: A API é projetada para clientes como `curl` ou Postman. Acessar `http://localhost:5000/` no navegador pode resultar em "Not Found" a menos que uma rota raiz seja configurada (o que não é o caso aqui). Use os endpoints específicos para testes.
