@@ -14,4 +14,4 @@ API RESTful para operações matemáticas básicas usando Python e Flask.
 - `POST /calculations/sum` - Soma um vetor de inteiros
   - Exemplo de requisição:
     ```json
-    {"numbers": [1, 2, 3, 4, 5]}# calculadora-api
+    {"numbers": [1, 2, 3, 4, 5]}
